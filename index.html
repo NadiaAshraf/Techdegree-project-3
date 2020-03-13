@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>the Code Review</title>
+
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="selector.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <div class="container">
+
+  <form action="index.html" method="post">
+    <h1 class="title">THE CODE REVIEW</h1>
+    <h1 id="heading">Signup for our newsletter</h1>
+    <p>Get the latest news on how your code is doing right in your inbox.</p><hr><hr class="last">
+
+
+        <h1>Contact Information </h1>
+
+
+      <div class="main">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="user_name">
+      </div>
+
+      <div class="main">
+        <label for="email">Email Address</label>
+        <input type="mail"id="email" placeholder="email@website.com">
+      </div>
+
+      <div class="main">
+        <label for="number">Phone Number</label>
+        <input type="number"id="number" name="user_phone_number">
+      </div>
+
+      <div class="main">
+        <label for="address">Street Address</label>
+        <input type="text"id="address" name="user_street_address">
+      </div>
+
+      <div class="main">
+        <label for="city">City</label>
+        <input type="text"id="city" name="user_city">
+      </div>
+
+      <div class="main">
+        <label for="state">State</label>
+        <select id="state" name="user_state">
+            <option class="light">Choose State</option>
+            <option class="light"> Alberta</option>
+            <option class="light">British Columbia</option>
+            <option class="light">Manitoba</option>
+            <option class="light">New Brunswick</option>
+            <option class="light">New Foundland and labrador</option>
+            <option class="light">Nova Scotia</option>
+            <option class="light">Ontario</option>
+            <option class="light">Prince Edward Island</option>
+            <option class="light">Saskatchewan</option>
+            <option class="light">Yukon</option>
+            <option class="light">Quebec</option>
+        </select>
+      </div>
+
+       <div class="main">
+        <label for="code">Zip Code</label><br>
+        <input type="code"id="code" name="user_zip_code">
+      </div><hr class="last">
+
+
+
+
+
+<h1>Newsletter</h1>
+<fieldset>
+    <label>Select the newsletters you would like to receive</label><br>
+
+  <div class="checkbox"><input type="checkbox" id="html" name="user_newsletter"><label class="light"for="html">HTML News</label></div><br>
+
+  <div class="checkbox"><input type="checkbox" id="css" name="user_newsletter"><label class="light"for="css">CSS News</label></div><br>
+
+  <div class="checkbox"><input type="checkbox" id="javascript" name="user_newsletter"><label class="light"for="javascript">Javascript News</label></div><br>
+
+</fieldset>
+
+<fieldset>
+<label>Newsletter format</label><br>
+
+<div class="radio"><input type="radio" id="html text"name="html_text"><label for="html text">HTML</label></div><br>
+<div class="radio"><input type="radio" id="plain text"name="plain_text"><label for="plain text">Plain Text</label></div>
+</fieldset>
+
+<label for="comment">Other topics you'd like to hear about</label>
+<textarea id="comment" name="user_comment"></textarea>
+
+
+
+<button type="submit">Sign Up</button>
+
+ <p>Copyright The Code Review</p>
+
+  </form>
+</div>
+</body>
+
+  </html>

@@ -1,0 +1,177 @@
+* box-sizing{
+  border-box;
+}
+
+body{
+  width:100%;
+  color:	#696969;
+}
+
+.container{
+margin-right: auto;
+padding-right: 20px;
+padding-left:10px;
+
+}
+.title{
+  text-align: center;
+  background-color: #424d57;
+  color:#ffffff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#heading{
+text-align: center;
+padding:.5em;
+margin-bottom: 0;
+}
+p{
+  color:#bfbfbf;
+  font-size: 25px;
+  text-align: center;
+  padding-top:0;
+  padding-right:.5em;
+  margin-top: 0;
+}
+h1{
+  color:#424d57;
+  margin-top: 0;
+  padding-top:1em;
+}
+hr{
+  border-top:7px solid;
+  color:#424d57;
+}
+.last{
+  border-top:3px solid;
+  color:#424d57;
+}
+
+input[type="checkbox"]:checked + label{
+  font-weight: bold;
+}
+
+label{
+  font-size: 25px;
+  margin-top: 10px;
+}
+input{
+font-size:25px;
+padding:.75em;
+margin-top: 1em;
+margin-bottom: 1em;
+box-sizing: border-box;
+border-radius:8px;
+background-color: #e6e6e6;
+border: none;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+select{font-size:25px;
+padding:.75em;
+margin-top: 1em;
+margin-bottom: 1em;
+box-sizing: border-box;
+border-radius:8px;
+background-color: #e6e6e6;
+border: none;
+}
+input[type="code"]{
+  width:50%;
+}
+
+input[type="checkbox"]{
+  padding:0;
+  margin-right:.5em;
+  margin-bottom: 0;
+}
+.checkbox{
+  margin-top: 1em;
+}
+input[type="radio"]{
+padding:0;
+margin-right:.5em;
+margin-bottom: 0;}
+.radio{
+  margin: 0;
+  padding: 0;
+}
+fieldset{
+  border-style: hidden;
+  padding-bottom: 3em;
+}
+
+textarea{  padding:25px;
+  margin: 20px 0;
+  width:100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius:8px;
+  background-color: #e6e6e6;
+  border: none;
+  line-height: 4em;}
+
+button{
+  padding:25px;
+  margin: 20px 0;
+  width:100%;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius:8px;
+  background-color: #20B2AA;
+  border: none;
+  line-height: 2em;
+  color:white;
+  font-size: 25px;
+  text-align: center;
+}
+@media(min-width:768px){
+
+.container{
+  margin-left: 5em;
+  padding-right: 15em;
+  padding-left: 10em;
+  width: 75%%;
+}
+label{
+  margin-right: 40px;
+  padding: 0;
+  width:20%;
+}
+input{margin-top: 0;
+margin-left: 20px;
+width: 100%;}
+#code{
+  width:30%;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox{
+  display: inline;
+}
+input[type="checkbox"]{
+width:2%;
+margin-top: 0;
+padding-top: 0;
+}
+
+input[type="radio"]{
+padding:0;
+width: 2%;}
+.radio{
+  display: inline;;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+}
