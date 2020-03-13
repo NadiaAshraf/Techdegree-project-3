@@ -71,7 +71,7 @@ border: none;
   display: flex;
   flex-direction: column;
 }
-select{font-size:25px;
+#state{font-size:20px;
 padding:.75em;
 margin-top: 1em;
 margin-bottom: 1em;
@@ -79,9 +79,11 @@ box-sizing: border-box;
 border-radius:8px;
 background-color: #e6e6e6;
 border: none;
+color: #696969;
 }
 input[type="code"]{
   width:50%;
+  margin-top:.3em;
 }
 
 input[type="checkbox"]{
@@ -138,15 +140,16 @@ button{
   width: 75%%;
 }
 label{
-  margin-right: 40px;
-  padding: 0;
-  width:20%;
+  margin-right: 10px;
+  padding:0;
+  width:30%;
 }
 input{margin-top: 0;
-margin-left: 20px;
+margin-left:0;
 width: 100%;}
-#code{
+input[type="code"]{
   width:30%;
+  padding-left: 0;
 }
 
 .main{
