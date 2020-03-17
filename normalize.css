@@ -86,7 +86,7 @@ background-color: #e6e6e6;
 border: none;
 color: #696969;
 }
-input[type="code"]{
+#zip{
   width:50%;
   margin-top:.3em;
 }
@@ -150,15 +150,15 @@ label{
   padding:0;
   width:30%;
 }
-label[for="code"]{
+label[for="zip"]{
   width:23%;
 }
 input{margin-top: 0;
 margin-left:0;
 width: 100%;}
-input[type="code"]{
+#zip{
   width:30%;
-  padding-left: 0;
+  padding-left:.5em;
 }
 
 .main{
